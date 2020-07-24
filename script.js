@@ -39,7 +39,7 @@
     function checkAnswer() {
       // use getElementsByName because we have an array which it will loop through
 
-      if ((document.getElementsByName('choices').checked == true) ){
+      if ((document.getElementsByName('choices').checked = true) ){
         
         choices = document.getElementsByName("choices");
         for (var i = 0; i < choices.length; i++) {
